@@ -65,31 +65,60 @@ circle{
 }
 
 .navbar-default .navbar-toggle:hover {
-  background-color: #685544;
+  background-color: #636363;
 
 }
 .navbar-default .navbar-brand {
-  color: #b3a580;
-  font-family: 'Bitter', serif;
+  font-family: 'PT Serif', serif;
   font-size: 30px;
 }
 
 .navbar-default .navbar-brand:hover {
-  color: white;
+  text-decoration: underline;
 }
 
 .navbar-default .navbar-nav > li > a  {
-  color: #b3a580;
-  font-family: 'Bitter', serif;
+  font-family: 'PT Serif', serif;
   font-size: 20px;
 }
 
-.navbar-default .navbar-nav:hover > li > a:hover  {
-  color: white;
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
 
 }
 
-.navbar-collapse {
-  background-color: #685544;
+li{
+  font-size: 10px;
+}
 
+.well {
+  min-height: 20px;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.center {
+  padding: 30px;
+  background: #fcfcfc;;
+}
+
+.row{
+  padding:10px;
+}
+
+body {
+    background-color: #fcfcfc;
+    font-family: 'PT Serif', serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
 }
